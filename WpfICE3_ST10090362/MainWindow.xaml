@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfICE3_ST10090362.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfICE3_ST10090362"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Loginbtn" Content="Log In" HorizontalAlignment="Center" Margin="0,289,0,0" VerticalAlignment="Top" Width="140" Click="Loginbtn_Click"/>
+        <PasswordBox x:Name="passwordBOX" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" RenderTransformOrigin="0.504,0.64"/>
+        <TextBlock x:Name="emailtxt" HorizontalAlignment="Center" Margin="0,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="Heading" Content="LOG IN" HorizontalAlignment="Left" Margin="330,84,0,0" VerticalAlignment="Top" Height="24" Width="104"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="187,167,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="187,208,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,0.04"/>
+        <TextBox x:Name="emailtxt1" HorizontalAlignment="Center" Margin="0,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="emailtxt1_TextChanged"/>
+
+    </Grid>
+</Window>

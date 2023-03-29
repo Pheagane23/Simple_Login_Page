@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WpfICE3_ST10090362/1.0.0": {
+        "runtime": {
+          "WpfICE3_ST10090362.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfICE3_ST10090362/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
